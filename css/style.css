@@ -25,6 +25,26 @@ p {
     border: 3px solid white;
 }
 
+.subtitulo {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.subtitulo:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: black;
+    margin: 8px auto;
+}
+
 .header {
     position: fixed;
     top: 0;
@@ -100,4 +120,12 @@ p {
     font-weight: bold;
     font-size: 14px;
     letter-spacing: .1em;
+}
+
+.produtos {
+    padding: ;
+}
+
+.produtos_lista {
+    background: #fec63e;
 }
