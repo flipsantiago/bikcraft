@@ -1,154 +1,154 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 14px;
-    line-height: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .btn {
-    border: 3px solid #fec63e;
-    padding: 10px 30px;
-    color: #fec63e;
-    font-size: 14px;
-    line-height: 20px;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: bold;
-    letter-spacing: .1em;
+  border: 3px solid #fec63e;
+  padding: 10px 30px;
+  color: #fec63e;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.1em;
 }
 
 .btn:hover {
-    color: white;
-    border: 3px solid white;
+  color: white;
+  border: 3px solid white;
 }
 
 .subtitulo {
-    font-size: 24px;
-    line-height: 30px;
-    font-weight: bold;
-    letter-spacing: .1em;
-    color: black;
-    text-transform: uppercase;
-    text-align: center;
-    padding-top: 30px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
 }
 
 .subtitulo:after {
-    content: "";
-    display: block;
-    width: 60px;
-    height: 3px;
-    background: black;
-    margin: 8px auto;
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: black;
+  margin: 8px auto;
 }
 
 .header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background: #fec63e;
-    padding: 15px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #fec63e;
+  padding: 15px 0;
 }
 
 .header_menu {
-    text-align: right;
+  text-align: right;
 }
 
 .header_menu ul li {
-    margin-left: 20px;
-    margin-top: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
 .header_menu ul li a {
-    color: black;
-    text-transform: uppercase;
-    margin-left: 20px;
-    font-weight: bold;
-    letter-spacing: .1em;
-    font-size: 14px;
-    line-height: 25px;
-    text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  margin-left: 20px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  line-height: 25px;
+  text-decoration: none;
 }
 
 .header_menu ul li a:hover {
-    color: white;
+  color: white;
 }
 
 .introducao {
-    width: 100%;
-    height: 380px;
-    background: url("../img/bg.jpg") no-repeat center;
-    background-size: cover;
-    margin-top: 96px;
-    text-align: center;
-    padding-top: 80px;
+  width: 100%;
+  height: 380px;
+  background: url("../img/bg.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 95px;
+  text-align: center;
+  padding-top: 80px;
 }
 
 .introducao h1 {
-    font-size: 48px;
-    color: white;
-    font-weight: bold;
-    text-transform: uppercase;
+  font-size: 48px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .quote-externo {
-    max-width: 320px;
-    margin: 0 auto;
-    color: white;
-    margin-bottom: 40px;
+  max-width: 320px;
+  margin: 0 auto;
+  color: white;
+  margin-bottom: 40px;
 }
 
 .quote-externo p {
-    font-style: italic;
+  font-style: italic;
 }
 
 .quote-externo p:before,
 .quote-externo p:after {
-    content: "";
-    display: block;
-    width: 60px;
-    height: 3px;
-    background: white;
-    margin: 14px auto 10px auto;
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: white;
+  margin: 14px auto 10px auto;
 }
 
 .quote-externo cite {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    letter-spacing: .1em;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.1em;
 }
 
 .produtos {
-    padding: 60px 0;
+  padding: 60px 0;
 }
 
 .produtos_lista li {
-    background: #fec63e;
+  background: #fec63e;
 }
 
 .produtos_lista li h3 {
-    font-weight: bold;
-    font-size: 18px;
-    text-transform: uppercase;
-    padding: 20px;
-    text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 20px;
+  text-align: center;
 }
 
 .produtos_lista li h3:after {
-    content: "";
-    display: block;
-    width: 60px;
-    height: 3px;
-    background: black;
-    margin: 14px auto 10px auto;
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: black;
+  margin: 14px auto 10px auto;
 }
 
 .produtos_icone {
-    background: black;
-    padding: 20px;
-    text-align: center;
+  background: black;
+  padding: 20px;
+  text-align: center;
 }
