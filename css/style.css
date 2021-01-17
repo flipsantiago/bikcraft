@@ -185,3 +185,11 @@ p {
   padding: 40px;
   clear: both;
 }
+
+.portfolio {
+  background: black;
+}
+
+.portfolio h2 {
+  color: #fec63e;
+}
