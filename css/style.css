@@ -25,6 +25,23 @@ p {
   border: 3px solid white;
 }
 
+.btn-preto {
+  border: 3px solid #fec63e;
+  padding: 10px 30px;
+  color: #fec63e;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.btn-preto:hover {
+  color: black;
+  border: 3px solid black;
+}
+
 .subtitulo {
   font-size: 24px;
   line-height: 30px;
@@ -167,21 +184,4 @@ p {
   text-align: center;
   padding: 40px;
   clear: both;
-}
-
-.btn-preto {
-  border: 3px solid #fec63e;
-  padding: 10px 30px;
-  color: #fec63e;
-  font-size: 14px;
-  line-height: 20px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: bold;
-  letter-spacing: 0.1em;
-}
-
-.btn-preto:hover {
-  color: black;
-  border: 3px solid black;
 }
