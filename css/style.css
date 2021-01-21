@@ -188,8 +188,22 @@ p {
 
 .portfolio {
   background: black;
+  width: 100%;
+  padding: 40px 0;
 }
 
 .portfolio h2 {
   color: #fec63e;
+}
+
+.portfolio h2::after {
+  background: #fec63e;
+}
+
+.portfolio_lista li:last-child {
+  margin-top: 20px;
+}
+
+.portfolio .call p {
+  color: white;
 }
