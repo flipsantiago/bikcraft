@@ -3,7 +3,8 @@ body {
 }
 
 p {
-  font-family: Georgia, "Times New Roman", Times, serif;
+ 
+  
   font-size: 14px;
   line-height: 20px;
 }
@@ -296,4 +297,31 @@ img {
 
 .footer_historia {
   padding-right: 40px;
+}
+
+.footer_contato ul li{
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.footer_redes ul li{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer_redes ul li a{
+  border: 3px solid #fec63e;
+  display: block;
+  padding: 10px;
+}
+
+.footer_redes ul li a:hover{
+  border: 3px solid white;
+}
+
+.copy {
+  width: 100%;
+  background: #fec63e;
+  padding: 20px 0;
 }
