@@ -67,6 +67,25 @@ img {
   margin: 8px auto;
 }
 
+.subtitulo-interno {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: black;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.subtitulo-interno:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: black;
+  margin: 8px;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -98,6 +117,10 @@ img {
 
 .header_menu ul li a:hover {
   color: white;
+}
+
+.header_menu ul li a.menu-ativo {
+  color: aliceblue;
 }
 
 .introducao {
@@ -143,6 +166,31 @@ img {
   font-weight: bold;
   font-size: 14px;
   letter-spacing: 0.1em;
+}
+
+.introducao-interna {
+  width: 100%;
+  margin-top: 92px;
+  height: 160px;
+  background-size: cover;
+}
+
+.introducao-interna {
+  font-size: 36px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.introducao-interna h1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: white;
+  margin: 6px auto 10px auto;
 }
 
 .produtos {
@@ -234,6 +282,7 @@ img {
 
 .qualidade_lista {
   padding-top: 30px;
+  overflow: hidden;
 }
 
 .qualidade_lista li {
@@ -304,6 +353,7 @@ img {
   line-height: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+
 
 .footer_redes ul li{
   display: inline-block;
